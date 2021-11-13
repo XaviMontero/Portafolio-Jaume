@@ -1,0 +1,35 @@
+
+.button {
+  background-color: var(--purpure);
+  color: var(--withe);
+  font: var(--fontButton);
+  border: none;
+  padding-inline: 24px;
+  padding-block:24px ;
+  border-radius: 4px;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button.is-secondary {
+  border: 2px solid var(--purpure);
+  background: unset;
+  color: var(--purpure);
+}
+
+.button-icon{
+  border:none;
+  padding: 10px;
+  border-radius:4px;
+  border: 2px solid var(--purpure);
+  background: var(--withe);
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.button-icon img {
+  vertical-align: middle;
+}
